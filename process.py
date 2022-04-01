@@ -11,7 +11,7 @@ def sales_reports(log_file):
         #slice from the line list the elements from index zero til index two
         day = line[0:3]
         # if the condition met print the whole line
-        if day == "Tue":
+        if day == "Mon":
             print(line)
 
 #invoke the function sales reports argument log_file
